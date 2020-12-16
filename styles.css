@@ -1,0 +1,155 @@
+body {
+  font-family: "Spartan";
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-position: top, bottom;
+  padding: 10%;
+}
+
+/* colors */
+.primary1 {
+  color: hsl(300, 43%, 22%);
+}
+
+.primary2 {
+  color: hsl(333, 80%, 67%);
+}
+
+.neutral3 {
+  color: hsl(0, 0%, 100%);
+}
+
+.coloured-background {
+  background-color: hsl(300, 43%, 22%);
+  padding: 40px 25px;
+  border-radius: 15px;
+}
+
+/* headings */
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(303, 10%, 53%);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* top row */
+.top {
+  margin-bottom: 40px;
+}
+
+.heading {
+  width: 80%;
+}
+
+.star-image {
+  padding: 3px;
+}
+
+.Stars {
+  margin-right: 15px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.rated {
+  display: inline-block;
+}
+
+.bar {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.bar2 {
+  position: relative;
+  left: 8.33%;
+}
+
+.bar3 {
+  position: relative;
+  left: 16.66%;
+}
+
+/* bottom row */
+
+.bottom {
+  margin-bottom: 50px;
+}
+
+.col-lg-4 {
+  margin-bottom: 32px;
+}
+
+.buyer-images {
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+  width: 15%;
+}
+
+.buyer-header {
+  padding-bottom: 20px;
+}
+
+.review2 {
+  position: relative;
+  top: 25px;
+}
+
+.review3 {
+  position: relative;
+  top: 50px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* mobile display */
+
+@media (max-width:600px) {
+  body {
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-position: top, bottom;
+  }
+
+  .top {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+  }
+
+  .heading {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .Stars {
+    margin: auto;
+    display: block;
+  }
+
+  .rated {
+    display: block;
+  }
+
+  .bar1, .bar2, .bar3, .review2, .review3 {
+    position: static;
+  }
+}
